@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<com.qingpeng.mz.utils.MyTextureView-->
+        <!--android:id="@+id/textureView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <com.qingpeng.mz.utils.ResizeAbleSurfaceView
+    android:id="@+id/camera_surface"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/px20"
+            android:layout_marginTop="@dimen/px200"
+            android:layout_marginRight="@dimen/px20"
+            android:background="@color/color_black_bf000000"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/px20">
+
+            <EditText
+                android:id="@+id/ed_room_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/px20"
+                android:background="@null"
+                android:hint="请输入您的标题"
+                android:textColorHint="@color/c_ffffff" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="@dimen/px20"
+                android:layout_marginRight="@dimen/px20"
+                android:background="@color/c_ffffff" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px20"
+                android:layout_marginTop="@dimen/px20">
+
+                <com.qingpeng.mz.views.XCRoundImageView
+                    android:id="@+id/ima_touxiang"
+                    android:layout_width="@dimen/px140"
+                    android:layout_height="@dimen/px140" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/px20"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text_huati"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/text_20px_bg_xuxian"
+                        android:paddingLeft="@dimen/px20"
+                        android:paddingTop="@dimen/px10"
+                        android:paddingRight="@dimen/px20"
+                        android:paddingBottom="@dimen/px10"
+                        android:text="+话题标签"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/text_pindao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/px20"
+                        android:background="@drawable/text_20px_bg_xuxian"
+                        android:paddingLeft="@dimen/px20"
+                        android:paddingTop="@dimen/px10"
+                        android:paddingRight="@dimen/px20"
+                        android:paddingBottom="@dimen/px10"
+                        android:text="+频道选择"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/px60"
+            android:layout_marginRight="@dimen/px60"
+            android:layout_marginBottom="@dimen/px200"
+            android:background="@drawable/btn_bg"
+            android:gravity="center"
+            android:paddingTop="@dimen/px20"
+            android:paddingBottom="@dimen/px20"
+            android:text="开始直播"
+            android:textColor="@color/c_ffffff" />
+    </LinearLayout>
+
+
+</RelativeLayout>

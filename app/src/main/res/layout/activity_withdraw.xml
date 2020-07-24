@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_f7f7ff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px44" />
+
+        <com.qingpeng.mz.views.TitleBar
+            android:id="@+id/title_bar"
+            app:showToastLeftSrc="true"
+            app:textLeftSrc="@mipmap/ic_back"
+            app:textTitle="提现"
+            app:textTitleColor="@color/c_000000"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px80" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/ffffff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:layout_margin="@dimen/px40"
+            android:background="@drawable/btn_bg"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="40"
+                android:textColor="@color/ffffff"
+                android:textSize="@dimen/px50" />
+
+            <com.qingpeng.mz.views.ZhunTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px20"
+                android:text="直播豆"
+                android:textColor="@color/ffffff"
+                android:textSize="@dimen/px35" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/px30">
+
+            <com.qingpeng.mz.views.CuTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="提现金额"
+                android:textColor="@color/c_000000"
+                android:textSize="@dimen/px30" />
+
+            <TextView
+                android:id="@+id/text_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="全部取出"
+                android:textColor="@color/c_29E5E0"
+                android:textSize="@dimen/px30" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/px20"
+            android:layout_marginRight="@dimen/px20">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¥"
+                android:textColor="@color/c_000000"
+                android:textSize="@dimen/px80" />
+
+            <EditText
+                android:id="@+id/et_money"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px20"
+                android:background="@null"
+                android:gravity="right"
+                android:hint="请输入金额"
+                android:text=""
+                android:textColor="@color/c_ff2498"
+                android:textColorHint="@color/c_A8A8A8"
+                android:textSize="@dimen/px50" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px30"
+            android:background="@color/c_f7f7ff"
+            android:padding="@dimen/px20">
+
+            <TextView
+                android:id="@+id/tv_yue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/px10"
+                android:layout_weight="1"
+                android:text="提现换算单位：1元=1直播币=2直播豆"
+                android:textColor="@color/c_A8A8A8"
+                android:textSize="@dimen/px30" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/px30">
+
+            <com.qingpeng.mz.views.CuTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/px30"
+                android:layout_weight="1"
+                android:text="提现方式"
+                android:textColor="@color/c_000000"
+                android:textSize="@dimen/px40" />
+
+            <com.qingpeng.mz.MineItemView
+                app:itemRightText="　"
+                app:itemText="提现充值记录"
+                app:leftIcon="@mipmap/ic_alipay"
+                app:rightIcon="@mipmap/ic_select_s"
+                app:showToastLeftIcon="true"
+                app:showToastRightIcon="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.qingpeng.mz.MineItemView
+                app:itemRightText="　"
+                app:itemText="提现充值记录"
+                app:leftIcon="@mipmap/ic_wechat"
+                app:rightIcon="@mipmap/ic_select_n"
+                app:showToastLeftIcon="true"
+                app:showToastRightIcon="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.qingpeng.mz.MineItemView
+                app:itemRightText="　"
+                app:itemText="提现充值记录"
+                app:leftIcon="@mipmap/ic_unionpay"
+                app:rightIcon="@mipmap/ic_select_n"
+                app:showToastLeftIcon="true"
+                app:showToastRightIcon="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/px50">
+
+            <TextView
+                android:id="@+id/btn_ok"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/px200"
+                android:layout_marginRight="@dimen/px200"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg"
+                android:gravity="center"
+                android:padding="@dimen/px20"
+                android:text="提现"
+                android:textColor="@color/ffffff"
+                android:textSize="@dimen/px40" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

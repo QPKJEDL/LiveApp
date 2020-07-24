@@ -1,0 +1,70 @@
+<resources>
+<string name="app_name">互动直播</string>
+
+<string name="alivc_message_type_like">点了个赞</string>
+<string name="alivc_message_type_kick_out">has been removed, because of misconduct</string>
+<string name="alivc_message_type_forbid_user_other"> Has been muted</string>
+<string name="alivc_message_type_forbid_user">mute</string>
+<string name="alivc_message_type_forbid_all_user">全员被禁言</string>
+<string name="alivc_message_type_allow_all_user">允许所有用户发言</string>
+<string name="alivc_message_type_allow_user">允许发言</string>
+<string name="alivc_message_type_join_room">enter stream room</string>
+<string name="alivc_message_type_leave_room">leave stream room</string>
+
+<string name="alivc_message_type_up_mic">主播上麦</string>
+
+<string name="alivc_dialog_tips">tips</string>
+<string name="alivc_operate_allow_user">解除禁言</string>
+<string name="alivc_operate_forbid_user">mute</string>
+<string name="alivc_operate_user_name">nickName</string>
+<string name="alivc_operate_kickout_user">踢人</string>
+
+<string name="product_interactive_live">互动直播推流间</string>
+<string name="product_interactive_live_play">互动直播观看间</string>
+<string name="alivc_message_type_kick_out_by_audience">您已经被踢出房间</string>
+<string name="alivc_enter_room_tips">请输入要加入的房间ID</string>
+<string name="alivc_enter_room_check_null_tips">房间ID内容不能为空</string>
+
+<string name="alivc_enter_room_confirm">ok</string>
+<string name="alivc_enter_room_cancel">cancel</string>
+
+<string name="alivc_user_setting">User Setting</string>
+<string name="alivc_user_change">Switch User</string>
+<string name="alivc_user_switch_success">Switch user Success</string>
+<string name="alivc_avatar_change_tips">Click to Change Display Image</string>
+<string name="alivc_done">Done</string>
+<string name="alivc_nickname">Nickname</string>
+<string name="alivc_live">Live</string>
+<string name="alivc_replay">Playback</string>
+<string name="alivc_interactive_live">Interactive Stream</string>
+
+<string name="alivc_ban_chat">Mute</string>
+<string name="alivc_on_chat">Unmute</string>
+<string name="alivc_kickout">Remove User</string>
+<string name="alivc_black_list">Blacklist</string>
+
+<string name="alivc_beauty">Face Filter</string>
+<string name="alivc_fine_tune">Makeup</string>
+
+<string name="beauty_whitening">Skin Whitening</string>
+<string name="beauty_buffing">Skin Polishing</string>
+<string name="beauty_blush">Skin Shining</string>
+<string name="beauty_lip_gloss">Blusher</string>
+<string name="beauty_thinface">Face Slimming</string>
+<string name="beauty_short_jaw">Shorten Jaw</string>
+<string name="beauty_bigeye">Eye Widening</string>
+
+<string name="chat_hint">Let\'s Chat</string>
+<string name="startlive">Start Stream</string>
+<string name="preshow">preShow</string>
+
+<string name="stream_smooth">smooth</string>
+<string name="stream_sd">SD</string>
+<string name="stream_hd">HD</string>
+<string name="building">Coming Soon...</string>
+<string name="streamoff">Streamer is offline</string>
+
+<string name="kickalert">你被主播移出直播间，请注意言行！</string>
+<string name="kickbt">Ok</string>
+
+</resources>

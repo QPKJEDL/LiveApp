@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="alivc_color_send_name">#62ffcf</color>
+    <!--聊天相关 4D151515  3372B3FF-->
+    <color name="chat_item_bg">#151515</color>
+    <color name="chat_item_bg_me">#72B3FF</color>
+    <color name="chat_item_bg_vip">#B89A58</color>
+    <color name="chat_newmsg_tip_color">#FF634E</color>
+    <color name="chat_newmsg_tip_bg_color">#E6000000</color>
+    <color name="ffffff">#ffffff</color>
+    <color name="E6373d41">#E6373d41</color>
+    <color name="colorPrimary_alpha_five">#1affffff</color>
+    <color name="alivc_blue">#379DF2</color>
+    <color name="alivc_color_player_colorAccent">#00c1de</color>
+</resources>

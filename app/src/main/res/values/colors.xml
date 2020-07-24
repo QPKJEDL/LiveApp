@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="alivc_white">#e7e7e7</color>
+    <color name="alivc_blue">#379DF2</color>
+    <color name="alivc_green">#57AB44</color>
+    <color name="alivc_orange">#EE7C33</color>
+    <color name="alivc_red">#E94033</color>
+
+    <color name="c_000000">#000000</color>
+    <color name="c_9698a7">#9698a7</color>
+    <color name="gray_bg">#66CDC9C9</color>
+
+    <color name="thumbGradient">#eeeeee</color>
+    <color name="thumbOnColor">#4CD864</color>
+    <color name="trackGradient">#888888</color>
+    <color name="trackOnColor">#4CD864</color>
+
+    <color name="background_blue">#2d44f4</color>
+
+    <color name="red">#ffff0000</color>
+    <color name="darker_gray">#aaa</color>
+    <color name="text_blue">#2d44f4</color>
+
+    <color name="yellow">#ffff00</color>
+    <color name="light_gray">#30000000</color>
+    <color name="c_f7f7ff">#f7f7ff</color>
+    <color name="text_green">#00c0fb</color>
+    <color name="text_black">#333333</color>
+    <color name="text_white">#ffffffff</color>
+    <color name="c_ffffff">#ffffff</color>
+    <color name="c_cccccc">#cccccc</color>
+    <color name="c_999999">#999999</color>
+    <color name="color_black_333333">#333333</color>
+    <color name="color_green_C2FF9A">#C2FF9A</color>
+    <color name="color_yellow_FAEC55">#faec55</color>
+    <color name="contact_letter_idx_bg">#33000000</color>
+    <color name="color_black_bf000000">#ff232828</color>
+    <color name="color_black_df000000">#df000000</color>
+    <color name="list_divider">#534f4d</color>
+    <color name="list_select">#238efa</color>
+    <color name="color_blue_74b9ff">#74b9ff</color>
+    <color name="color_gray_dfe2e6">#dfe2e6</color>
+
+
+
+    <color name="alivc_info_text_duration">#9f9e9e</color>
+    <color name="alivc_dialog_error_bg">#b2000000</color>
+    <color name="alivc_dialog_gesture_bg">#66ffffff</color>
+    <color name="alivc_gesture_text_color">#333333</color>
+
+    <color name="alivc_color_rate_item">#4c000000</color>
+
+    <color name="alivc_color_player_setting_background">#1e222d</color>
+    <color name="alivc_color_player_tab_selected">#00FFFF</color>
+    <color name="alivc_color_player_tab_defaut">#D8D8D8</color>
+
+    <color name="alivc_color_player_background">#1e222d</color>
+    <color name="alivc_color_player_colorPrimary">#00FFFF</color>
+    <color name="alivc_color_player_colorAccent">#00c1de</color>
+    <color name="alivc_color_player_clear_logs">#373d41</color>
+    <color name="alivc_color_player_manager_background">#373d41</color>
+    <color name="alivc_color_player_setting">#373d41</color>
+
+
+    <color name="colorPrimary_alpha_five">#1affffff</color>
+    <color name="colorPrimary_alpha_ten">#0cffffff</color>
+    <color name="colorPrimary_alpha_fifteen">#26ffffff</color>
+
+    <color name="add_download_info_background">#373d41</color>
+    <color name="delete_download_info_background">#373d41</color>
+    <color name="alivc_color_player_list_item_press">#2d3342</color>
+
+    <color name="alivc_color_action_list_dialog_background">#1e2321</color>
+    <color name="alivc_color_gray">#D8D8D8</color>
+
+    <color name="alivc_barrage_switch_background">#80D8D8D8</color>
+    <color name="c_363636">#363636</color>
+    <color name="c_b0b0b0">#B0B0B0</color>
+    <color name="c_ff2498">#FF2498</color>
+    <color name="c_A8A8A8">#A8A8A8</color>
+    <color name="c_575757">#575757</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="c_1B3F41">#7f1b3f41</color>
+    <color name="c_1AFFCD">#7f1affcd</color>
+    <color name="c_2F65FF">#2F65FF</color>
+    <color name="c_FFC72F">#FFC72F</color>
+    <color name="c_F82FFF">#F82FFF</color>
+    <color name="c_ff00bfcb">#ff00bfcb</color>
+    <color name="c_ffe4e3e4">#ffe4e3e4</color>
+    <color name="c_fff7f9fd">#fff7f9fd</color>
+    <color name="c_ffc3edab">#ffc3edab</color>
+    <color name="c_911be1df">#911be1df</color>
+    <color name="c_00BFCB">#00BFCB</color>
+    <color name="c_29E5E0">#29E5E0</color>
+    <color name="c_ffe8ebf2">#ffe8ebf2</color>
+</resources>

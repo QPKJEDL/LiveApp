@@ -1,0 +1,1 @@
+include ':app', ':AlivcCore', ':AliyunPusher:pusher_core', ':Aliyunplayer:AlivcPlayer', ':Aliyunplayer:AlivcReporter', ':Alivclive', ':zxing', ':imsdk', ':asynctcp', ':imkit', ':androidtranscoder', ':uikit', ':giftlibrary', ':library'

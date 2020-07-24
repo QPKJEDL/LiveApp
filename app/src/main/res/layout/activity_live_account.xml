@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_f7f7ff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/live_bg"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px44" />
+
+        <com.qingpeng.mz.views.TitleBar
+            android:id="@+id/title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px80"
+            app:showToastLeftSrc="true"
+            app:textLeftSrc="@mipmap/icon_back"
+            app:textTitle="钱包"
+            app:textTitleColor="@color/c_ffffff" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="255dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:layout_margin="@dimen/px40">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="40"
+                        android:textColor="@color/ffffff"
+                        android:textSize="@dimen/px50" />
+
+                    <com.qingpeng.mz.views.ZhunTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/px20"
+                        android:text="直播豆"
+                        android:textColor="@color/ffffff"
+                        android:textSize="@dimen/px35" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/px60"
+                    android:layout_marginBottom="@dimen/px60"
+                    android:background="@color/ffffff" />
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="40"
+                        android:textColor="@color/ffffff"
+                        android:textSize="@dimen/px50" />
+
+                    <com.qingpeng.mz.views.ZhunTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/px20"
+                        android:text="直播币"
+                        android:textColor="@color/ffffff"
+                        android:textSize="@dimen/px35" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:id="@+id/text_tixian"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/px68"
+                    android:layout_marginRight="@dimen/px44"
+                    android:layout_weight="1"
+                    android:background="@drawable/text_40px_bg_xian"
+                    android:gravity="center"
+                    android:text="提现"
+                    android:textColor="@color/c_ffffff" />
+
+                <TextView
+                    android:id="@+id/text_chongzhi"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/px44"
+                    android:layout_marginRight="@dimen/px68"
+                    android:layout_weight="1"
+                    android:background="@drawable/text_40px_bg"
+                    android:gravity="center"
+                    android:text="充值"
+                    android:textColor="@color/c_29E5E0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ffffff"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/mine_tixian"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/px20"
+            android:layout_weight="1"
+            android:background="@drawable/search_shape"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/px76"
+                android:layout_height="@dimen/px76"
+                android:layout_marginTop="@dimen/px30"
+                android:src="@mipmap/ic_account_tixian" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px20"
+                android:layout_marginBottom="@dimen/px20"
+                android:text="提现记录"
+                android:textColor="@color/c_000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mine_chongzhi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/px20"
+            android:layout_weight="1"
+            android:background="@drawable/search_shape"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/px76"
+                android:layout_height="@dimen/px76"
+                android:layout_marginTop="@dimen/px30"
+                android:src="@mipmap/ic_account_chongzhi" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px20"
+                android:layout_marginBottom="@dimen/px20"
+                android:text="充值记录"
+                android:textColor="@color/c_000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mine_shou"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/px20"
+            android:layout_weight="1"
+            android:background="@drawable/search_shape"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/px84"
+                android:layout_height="@dimen/px76"
+                android:layout_marginTop="@dimen/px30"
+                android:src="@mipmap/ic_account_shou" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px20"
+                android:layout_marginBottom="@dimen/px20"
+                android:text="收到的礼物"
+                android:textColor="@color/c_000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mine_song"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/search_shape"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/px76"
+                android:layout_height="@dimen/px76"
+                android:layout_marginTop="@dimen/px30"
+                android:src="@mipmap/ic_account_song" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px20"
+                android:layout_marginBottom="@dimen/px20"
+                android:text="送出的礼物"
+                android:textColor="@color/c_000000" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

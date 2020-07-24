@@ -1,0 +1,27 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidStudioProjects\mz\androidtranscoder\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from D:\AndroidStudioProjects\mz\androidtranscoder\src\main\AndroidManifest.xml:1:1-6:12
+INJECTED from D:\AndroidStudioProjects\mz\androidtranscoder\src\main\AndroidManifest.xml:1:1-6:12
+	package
+		ADDED from D:\AndroidStudioProjects\mz\androidtranscoder\src\main\AndroidManifest.xml:2:5-44
+		INJECTED from D:\AndroidStudioProjects\mz\androidtranscoder\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\mz\androidtranscoder\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidStudioProjects\mz\androidtranscoder\src\main\AndroidManifest.xml:1:11-69
+application
+ADDED from D:\AndroidStudioProjects\mz\androidtranscoder\src\main\AndroidManifest.xml:4:5-20
+uses-sdk
+INJECTED from D:\AndroidStudioProjects\mz\androidtranscoder\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidStudioProjects\mz\androidtranscoder\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\mz\androidtranscoder\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\mz\androidtranscoder\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\mz\androidtranscoder\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AndroidStudioProjects\mz\androidtranscoder\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\mz\androidtranscoder\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\mz\androidtranscoder\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidStudioProjects\mz\androidtranscoder\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\mz\androidtranscoder\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\mz\androidtranscoder\src\main\AndroidManifest.xml

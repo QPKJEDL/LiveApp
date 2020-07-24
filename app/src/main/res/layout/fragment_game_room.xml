@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/px400"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="@dimen/px20"
+        android:layout_marginRight="@dimen/px20" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px20"
+        android:layout_marginRight="@dimen/px20"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/game_longhu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/px20"
+            android:layout_weight="1" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/game_a89"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/px20"
+            android:layout_weight="1"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/game_baijiale"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/px20"
+            android:layout_weight="1"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_sangong"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/px20"
+            android:layout_weight="1"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_niuniu"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/px20"
+            android:layout_weight="1"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/ll_queding"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/btn_on"
+                android:layout_width="@dimen/px66"
+                android:layout_height="@dimen/px66"
+                android:background="@mipmap/ic_game_pay_s"
+                android:gravity="center"
+                android:text="确定"
+                android:textSize="@dimen/px22" />
+
+            <ImageView
+                android:id="@+id/btn_off"
+                android:layout_width="@dimen/px66"
+                android:layout_height="@dimen/px66"
+                android:layout_marginTop="@dimen/px12"
+                android:background="@mipmap/ic_game_cancle_s"
+                android:gravity="center"
+                android:text="取消"
+                android:textSize="@dimen/px22" />
+
+            <LinearLayout
+                android:layout_width="@dimen/px160"
+                android:layout_height="@dimen/px80"
+                android:layout_marginTop="@dimen/px20"
+                android:background="@drawable/game_bg_lv"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:text="限红"
+                    android:textColor="@color/ffffff"
+                    android:textSize="@dimen/px25" />
+
+                <TextView
+                    android:id="@+id/text_xianhong"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:text=""
+                    android:textColor="@color/ffffff"
+                    android:textSize="@dimen/px25" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

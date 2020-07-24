@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="E6373d41">#E6373d41</color>
+    <color name="alivc_blue">#379DF2</color>
+    <color name="alivc_color_player_colorAccent">#00c1de</color>
+    <color name="alivc_color_send_name">#62ffcf</color>
+    <color name="chat_item_bg">#151515</color>
+    <color name="chat_item_bg_me">#72B3FF</color>
+    <color name="chat_item_bg_vip">#B89A58</color>
+    <color name="chat_newmsg_tip_bg_color">#E6000000</color>
+    <color name="chat_newmsg_tip_color">#FF634E</color>
+    <color name="colorPrimary_alpha_five">#1affffff</color>
+    <color name="ffffff">#ffffff</color>
+    <dimen name="chat_input_text_num_textsize">9dip</dimen>
+    <dimen name="chat_item_bg_radius">8dip</dimen>
+    <dimen name="chat_item_content_textsize">14dip</dimen>
+    <dimen name="chat_item_margin">16dip</dimen>
+    <dimen name="chat_item_padding_bottom">10dip</dimen>
+    <dimen name="chat_item_padding_left">8dip</dimen>
+    <dimen name="chat_item_padding_right">15dip</dimen>
+    <dimen name="chat_item_padding_top">8dip</dimen>
+    <dimen name="chat_item_username_content_offet">3dp</dimen>
+    <dimen name="chat_item_username_textsize">12dip</dimen>
+    <dimen name="chat_newmsg_tip_height">22dip</dimen>
+    <dimen name="chat_newmsg_tip_textsize">12dip</dimen>
+    <dimen name="chat_newmsg_tip_triangle_margintop">8dip</dimen>
+    <dimen name="chat_newmsg_tip_triangle_size">15dip</dimen>
+    <dimen name="chat_newmsg_tip_width">95dip</dimen>
+    <dimen name="chat_user_pic_size">26dip</dimen>
+    <dimen name="chat_user_vipicon_marginleft">13dp</dimen>
+    <dimen name="chat_user_vipicon_margintop">13dp</dimen>
+    <dimen name="live_like_favor_size">16dp</dimen>
+    <dimen name="live_weex_back_height">40dp</dimen>
+    <dimen name="live_weex_back_width">105dp</dimen>
+    <string name="alivc_avatar_change_tips">Click to Change Display Image</string>
+    <string name="alivc_ban_chat">Mute</string>
+    <string name="alivc_beauty">Face Filter</string>
+    <string name="alivc_black_list">Blacklist</string>
+    <string name="alivc_dialog_tips">tips</string>
+    <string name="alivc_done">Done</string>
+    <string name="alivc_enter_room_cancel">cancel</string>
+    <string name="alivc_enter_room_check_null_tips">房间ID内容不能为空</string>
+    <string name="alivc_enter_room_confirm">ok</string>
+    <string name="alivc_enter_room_tips">请输入要加入的房间ID</string>
+    <string name="alivc_fine_tune">Makeup</string>
+    <string name="alivc_interactive_live">Interactive Stream</string>
+    <string name="alivc_kickout">Remove User</string>
+    <string name="alivc_live">Live</string>
+    <string name="alivc_message_type_allow_all_user">允许所有用户发言</string>
+    <string name="alivc_message_type_allow_user">允许发言</string>
+    <string name="alivc_message_type_forbid_all_user">全员被禁言</string>
+    <string name="alivc_message_type_forbid_user">mute</string>
+    <string name="alivc_message_type_forbid_user_other"> Has been muted</string>
+    <string name="alivc_message_type_join_room">enter stream room</string>
+    <string name="alivc_message_type_kick_out">has been removed, because of misconduct</string>
+    <string name="alivc_message_type_kick_out_by_audience">您已经被踢出房间</string>
+    <string name="alivc_message_type_leave_room">leave stream room</string>
+    <string name="alivc_message_type_like">点了个赞</string>
+    <string name="alivc_message_type_up_mic">主播上麦</string>
+    <string name="alivc_nickname">Nickname</string>
+    <string name="alivc_on_chat">Unmute</string>
+    <string name="alivc_operate_allow_user">解除禁言</string>
+    <string name="alivc_operate_forbid_user">mute</string>
+    <string name="alivc_operate_kickout_user">踢人</string>
+    <string name="alivc_operate_user_name">nickName</string>
+    <string name="alivc_replay">Playback</string>
+    <string name="alivc_user_change">Switch User</string>
+    <string name="alivc_user_setting">User Setting</string>
+    <string name="alivc_user_switch_success">Switch user Success</string>
+    <string name="app_name">互动直播</string>
+    <string name="beauty_bigeye">Eye Widening</string>
+    <string name="beauty_blush">Skin Shining</string>
+    <string name="beauty_buffing">Skin Polishing</string>
+    <string name="beauty_lip_gloss">Blusher</string>
+    <string name="beauty_short_jaw">Shorten Jaw</string>
+    <string name="beauty_thinface">Face Slimming</string>
+    <string name="beauty_whitening">Skin Whitening</string>
+    <string name="building">Coming Soon...</string>
+    <string name="chat_hint">Let\'s Chat</string>
+    <string name="kickalert">你被主播移出直播间，请注意言行！</string>
+    <string name="kickbt">Ok</string>
+    <string name="preshow">preShow</string>
+    <string name="product_interactive_live">互动直播推流间</string>
+    <string name="product_interactive_live_play">互动直播观看间</string>
+    <string name="startlive">Start Stream</string>
+    <string name="stream_hd">HD</string>
+    <string name="stream_sd">SD</string>
+    <string name="stream_smooth">smooth</string>
+    <string name="streamoff">Streamer is offline</string>
+    <style name="InputDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="android:textColorHint">@android:color/black</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="common_radio_group">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:drawableBottom">@drawable/alivc_button_selector</item>
+        <item name="android:button">@null</item>
+        <item name="android:background">@null</item>
+        <item name="android:textSize">17dp</item>
+    </style>
+    <style name="customDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowSoftInputMode">stateAlwaysVisible</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <declare-styleable name="IndicatorSeekBar">
+        //seekBar
+        <attr format="float" name="isb_max"/><!-- the max value of seekBar to seek, default 100-->
+        <attr format="float" name="isb_min"/><!-- the min value of seekBar to seek, default 0 -->
+        <attr format="float" name="isb_progress"/><!-- the current progress value of seekBar, default 0-->
+        <attr format="boolean" name="isb_clear_default_padding"/><!-- set seekBar's leftPadding&rightPadding to zero, default false, default padding is 16dp-->
+        <attr format="boolean" name="isb_forbid_user_seek"/><!--prevent user from touching to seek, default false-->
+        <attr format="boolean" name="isb_touch_to_seek"/><!--user change the thumb's location by touching thumb/touching track,true for touching track to seek. false for touching thumb; default true-->
+        <attr format="boolean" name="isb_progress_value_float"/><!--set the value of seekBar to float type, default false-->
+        <attr name="isb_seek_bar_type"><!-- the type for seekBar, default 0.-->
+            <enum name="continuous" value="0"/>
+            <enum name="continuous_texts_ends" value="1"/>
+            <enum name="discrete_ticks" value="2"/>
+            <enum name="discrete_ticks_texts" value="3"/><!--has below text-->
+            <enum name="discrete_ticks_texts_ends" value="4"/><!--has below text of both ends of seekBar-->
+        </attr>
+        //indicator
+        <attr name="isb_indicator_type"><!-- the type for indicator, default rectangle_rounded_corner/0.-->
+            <enum name="rectangle_rounded_corner" value="0"/>
+            <enum name="rectangle" value="1"/>
+            <enum name="circular_bubble" value="2"/>
+            <enum name="custom" value="3"/><!--choose custom type that you can set the custom indicator layout you want.-->
+        </attr>
+        <attr format="boolean" name="isb_show_indicator"/><!-- show indicator or not when seeking, default true-->
+        <attr format="color|reference" name="isb_indicator_color"/><!-- indicator's color, default #FF4081-->
+        <attr format="reference" name="isb_indicator_custom_layout"/><!-- when you set indicator type to custom , you can set this layout indicator layout you want-->
+        <attr format="reference" name="isb_indicator_custom_top_content_layout"/> <!--set this layout indicator top view you want, no effect arrow , effect on indicator type : rectangle or rectangle_rounded_corner-->
+        <attr format="color|reference" name="isb_indicator_text_color"/><!-- indicator's text color, default #FF4081 , work on indicator type : rectangle or rectangle_rounded_corner-->
+        <attr format="dimension|reference" name="isb_indicator_text_size"/><!-- indicator's text size, default 13sp,  work on indicator type : rectangle or rectangle_rounded_corner-->
+        <attr format="boolean" name="isb_indicator_stay"/><!-- indicator is visible when SeekBar visible, gone when SeekBar gone-->
+        //track
+        <attr format="dimension|reference" name="isb_track_background_bar_size"/><!-- set indicatorSeekBar's track background bar size, default 2dp-->
+        <attr format="color|reference" name="isb_track_background_bar_color"/><!-- set indicatorSeekBar's track background bar color, default #D7D7D7-->
+        <attr format="dimension|reference" name="isb_track_progress_bar_size"/><!-- set indicatorSeekBar's track progress bar size, default 2dp-->
+        <attr format="color|reference" name="isb_track_progress_bar_color"/><!-- set indicatorSeekBar's track progress bar color, default #FF4081-->
+        <attr format="boolean" name="isb_track_rounded_corners"/><!-- set indicatorSeekBar's track's both ends's corners to rounded/square, default false-->
+        //thumb
+        <attr format="boolean" name="isb_thumb_progress_stay"/><!-- set thumb below text to stay after seek, default false, work on seekBar type : continuous / discrete_ticks-->
+        <attr format="color|reference" name="isb_thumb_color"/><!--set thumb's color, default #FF4081-->
+        <attr format="dimension|reference" name="isb_thumb_width"/><!--set thumb's size, default 14dp, thumb size will be limited in 30dp-->
+        <attr format="reference" name="isb_thumb_drawable"/><!--set custom thumb's drawable you want,thumb size will be limited in 30dp, if drawable less than 30dp ,will show in raw size -->
+        //tick
+        <attr format="reference" name="isb_tick_drawable"/><!--set custom tick's drawable you want, custom drawable will be limited in 30dp, if less than 30dp ,will show in raw size-->
+        <attr format="color|reference" name="isb_tick_color"/><!--set tick's color, default #FF4081-->
+        <attr format="integer" name="isb_tick_num"/><!--seekBar's tick count, default 5-->
+        <attr format="dimension|reference" name="isb_tick_size"/><!--set the tick width, default 10dp,custom drawable will be limited in 30dp, if less than 30dp ,will show in raw size-->
+        <attr format="boolean" name="isb_tick_both_end_hide"/><!--hide 2 ticks on the seekBar's both ends, default false-->
+        <attr format="boolean" name="isb_tick_on_thumb_left_hide"/><!--hide the ticks on the seekBar's thumb left, default false-->
+        <attr name="isb_tick_type"><!--select the tick shape type, default rectangle/1-->
+            <enum name="none" value="0"/>
+            <enum name="rec" value="1"/>
+            <enum name="oval" value="2"/>
+        </attr>
+        //text
+        <attr format="color|reference" name="isb_text_color"/><!--set the color of text below tick, default #FF4081-->
+        <attr format="string|reference" name="isb_text_left_end"/><!--set the text below seekBar left end, default min value string, work on seekBar type :CONTINUOUS_TEXTS_ENDS/DISCRETE_TICKS_TEXTS/DISCRETE_TICKS_TEXTS_ENDS-->
+        <attr format="string|reference" name="isb_text_right_end"/><!--set the text below seekBar right end, default max value string, work on seekBar type :CONTINUOUS_TEXTS_ENDS/DISCRETE_TICKS_TEXTS/DISCRETE_TICKS_TEXTS_ENDS-->
+        <attr format="dimension|reference" name="isb_text_size"/><!--set the text size of tick below text, default 13sp-->
+        <attr format="reference" name="isb_text_array"/><!--set the texts below tick to replace default progress text, default string of progress, work on seekBar type :DISCRETE_TICKS_TEXTS-->
+        <attr name="isb_text_typeface"><!--select the text typeface, default normal-->
+            <enum name="normal" value="0"/>
+            <enum name="monospace" value="1"/>
+            <enum name="sans" value="2"/>
+            <enum name="serif" value="3"/>
+        </attr>
+    </declare-styleable>
+</resources>

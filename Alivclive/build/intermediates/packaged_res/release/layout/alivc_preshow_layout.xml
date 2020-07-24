@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/ic_back" />
+
+    <LinearLayout
+        android:id="@+id/tool_bar"
+        android:layout_width="200dp"
+        android:layout_height="49dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        tools:background="@color/colorPrimary">
+
+
+        <ImageView
+            android:id="@+id/beauty_btn"
+            android:layout_width="0dp"
+            android:layout_height="26dp"
+            android:layout_weight="1"
+            android:src="@drawable/icon_beauty" />
+
+
+        <ImageView
+            android:id="@+id/switch_camera"
+            android:layout_width="0dp"
+            android:layout_height="26dp"
+            android:layout_weight="1"
+            android:src="@drawable/icon_camera" />
+
+        <ImageView
+            android:id="@+id/flash_btn"
+            android:layout_width="0dp"
+            android:layout_height="26dp"
+            android:layout_weight="1"
+            android:src="@drawable/icon_flash_off" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/preview_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_gravity="bottom">
+
+        <TextView
+            android:id="@+id/startLivebt"
+            android:layout_width="180dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/alivc_send_bt"
+            android:gravity="center"
+            android:text="@string/startlive" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_gravity="bottom"
+            android:background="@drawable/alivc_preview_stream_bg" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/smooth"
+                style="@style/common_radio_group"
+                android:layout_width="74dp"
+                android:layout_height="64dp"
+                android:checked="true"
+                android:drawablePadding="15dp"
+                android:paddingTop="17dp"
+                android:text="@string/stream_smooth"
+                android:textColor="@drawable/alivc_text_color_selector" />
+
+
+            <RadioButton
+                android:id="@+id/SD"
+                style="@style/common_radio_group"
+                android:layout_width="74dp"
+                android:layout_height="64dp"
+                android:drawablePadding="15dp"
+                android:paddingTop="17dp"
+                android:text="@string/stream_sd"
+                android:textColor="@drawable/alivc_text_color_selector" />
+
+            <RadioButton
+                android:id="@+id/HD"
+                style="@style/common_radio_group"
+                android:layout_width="74dp"
+                android:layout_height="64dp"
+                android:drawablePadding="15dp"
+                android:paddingTop="17dp"
+                android:text="@string/stream_hd"
+                android:textColor="@drawable/alivc_text_color_selector" />
+
+        </RadioGroup>
+    </FrameLayout>
+</merge>

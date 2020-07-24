@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="@dimen/px28"
+        android:paddingTop="@dimen/px18"
+        android:paddingRight="@dimen/px28"
+        android:paddingBottom="@dimen/px18"
+        android:text="牛牛A1"
+        android:textColor="@color/c_29E5E0" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/text_num"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="@dimen/px28"
+        android:paddingTop="@dimen/px18"
+        android:paddingRight="@dimen/px28"
+        android:paddingBottom="@dimen/px18"
+        android:text="牛牛A1"
+        android:textColor="@color/c_ffffff" />
+
+    <TextView
+        android:id="@+id/text_win"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="@dimen/px28"
+        android:paddingTop="@dimen/px18"
+        android:paddingRight="@dimen/px28"
+        android:paddingBottom="@dimen/px18"
+        android:text="牛牛A1"
+        android:textColor="@color/c_ffffff" />
+</LinearLayout>

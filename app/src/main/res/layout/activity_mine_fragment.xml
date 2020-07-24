@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_f7f7ff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ll_shang"
+            android:layout_width="match_parent"
+            android:layout_height="370dp"
+            android:background="@mipmap/ic_mine_bg"
+            android:orientation="vertical">
+
+            <com.qingpeng.mz.views.XCRoundImageView
+                android:id="@+id/mine_touxiang"
+                android:layout_width="@dimen/px140"
+                android:layout_height="@dimen/px140"
+                android:layout_marginLeft="@dimen/px50"
+                android:layout_marginTop="@dimen/px200" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/px30"
+                android:layout_marginTop="@dimen/px30"
+                android:orientation="vertical">
+
+                <com.qingpeng.mz.views.CuTextView
+                    android:id="@+id/text_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/px20"
+                    android:text="昵称某某某"
+                    android:textColor="@color/c_ffffff" />
+
+                <com.qingpeng.mz.views.ZhunTextView
+                    android:id="@+id/text_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/px20"
+                    android:layout_marginTop="@dimen/px20"
+                    android:text="直播id:15613215"
+                    android:textColor="@color/c_ffffff" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <com.qingpeng.mz.views.ZhunTextView
+                        android:id="@+id/text_guanzhu"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/px20"
+                        android:layout_marginTop="@dimen/px20"
+                        android:text=""
+                        android:textColor="@color/c_ffffff" />
+
+                    <com.qingpeng.mz.views.ZhunTextView
+                        android:id="@+id/text_fensi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/px20"
+                        android:layout_marginTop="@dimen/px20"
+                        android:text=""
+                        android:textColor="@color/c_ffffff" />
+
+                    <com.qingpeng.mz.views.ZhunTextView
+                        android:id="@+id/text_huozan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/px20"
+                        android:layout_marginTop="@dimen/px20"
+                        android:text=""
+                        android:textColor="@color/c_ffffff" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ll_kuang"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="-45dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/min_bg_hui"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/px120"
+                    android:background="@drawable/search_shape"
+                    android:orientation="vertical">
+
+                    <com.qingpeng.mz.views.MineItemView
+                        android:id="@+id/mine_kanguo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:itemRightText="　"
+                        app:itemText="我看过的"
+                        app:leftIcon="@mipmap/ic_mine_kanguo"
+                        app:rightIcon="@mipmap/ic_right_back"
+                        app:showToastLeftIcon="true"
+                        app:showToastRightIcon="true" />
+
+
+                    <com.qingpeng.mz.views.MineItemView
+                        android:id="@+id/mine_zhanghu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:itemRightText="　"
+                        app:itemText="直播账户"
+                        app:leftIcon="@mipmap/ic_mine_zhanghu"
+                        app:rightIcon="@mipmap/ic_right_back"
+                        app:showToastLeftIcon="true"
+                        app:showToastRightIcon="true" />
+
+                    <com.qingpeng.mz.views.MineItemView
+                        android:id="@+id/mine_huiyuan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:itemRightText="　"
+                        app:itemText="会员特权"
+                        app:leftIcon="@mipmap/ic_mine_huiyuan"
+                        app:rightIcon="@mipmap/ic_right_back"
+                        app:showToastLeftIcon="true"
+                        app:showToastRightIcon="true" />
+
+                    <com.qingpeng.mz.views.MineItemView
+                        android:id="@+id/mine_huodong"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:itemRightText="　"
+                        app:itemText="活动中心"
+                        app:leftIcon="@mipmap/ic_mine_huodong"
+                        app:rightIcon="@mipmap/ic_right_back"
+                        app:showToastLeftIcon="true"
+                        app:showToastRightIcon="true" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/px30"
+                    android:background="@drawable/search_shape"
+                    android:orientation="vertical">
+
+                    <com.qingpeng.mz.views.MineItemView
+                        android:id="@+id/mine_zhubo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:itemRightText="　"
+                        app:itemText="主播相关"
+                        app:leftIcon="@mipmap/ic_mine_zhubo"
+                        app:rightIcon="@mipmap/ic_right_back"
+                        app:showToastLeftIcon="true"
+                        app:showToastRightIcon="true" />
+
+                    <com.qingpeng.mz.views.MineItemView
+                        android:id="@+id/mine_fensi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:itemRightText="　"
+                        app:itemText="粉丝礼物"
+                        app:leftIcon="@mipmap/ic_mine_fensi"
+                        app:rightIcon="@mipmap/ic_right_back"
+                        app:showToastLeftIcon="true"
+                        app:showToastRightIcon="true" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/px30"
+                    android:layout_marginBottom="@dimen/px20"
+                    android:background="@drawable/search_shape"
+                    android:orientation="vertical">
+
+                    <com.qingpeng.mz.views.MineItemView
+                        android:id="@+id/mine_bangzhu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:itemRightText="　"
+                        app:itemText="帮助与反馈"
+                        app:leftIcon="@mipmap/ic_mine_bangzhu"
+                        app:rightIcon="@mipmap/ic_right_back"
+                        app:showToastLeftIcon="true"
+                        app:showToastRightIcon="true" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+
+        <LinearLayout
+            android:id="@+id/ll_kuang"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px180"
+            android:layout_below="@+id/ll_shang"
+            android:layout_marginLeft="@dimen/px30"
+            android:layout_marginTop="-100dp"
+            android:layout_marginRight="@dimen/px30">
+
+            <LinearLayout
+                android:id="@+id/mine_sixin"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/px178"
+                android:layout_marginRight="@dimen/px20"
+                android:layout_weight="1"
+                android:background="@drawable/search_shape"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/px30"
+                    android:src="@mipmap/ic_mine_sixin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/px20"
+                    android:layout_marginBottom="@dimen/px20"
+                    android:text="私信"
+                    android:textColor="@color/c_000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mine_renwu"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/px178"
+                android:layout_marginRight="@dimen/px20"
+                android:layout_weight="1"
+                android:background="@drawable/search_shape"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/px30"
+                    android:src="@mipmap/ic_mine_renwu" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/px20"
+                    android:layout_marginBottom="@dimen/px20"
+                    android:text="任务"
+                    android:textColor="@color/c_000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mine_qianbao"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/px178"
+                android:layout_marginRight="@dimen/px20"
+                android:layout_weight="1"
+                android:background="@drawable/search_shape"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/px30"
+                    android:src="@mipmap/ic_mine_qianbao" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/px20"
+                    android:layout_marginBottom="@dimen/px20"
+                    android:text="钱包"
+                    android:textColor="@color/c_000000" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mine_dengji"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/px178"
+                android:layout_weight="1"
+                android:background="@drawable/search_shape"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/px30"
+                    android:src="@mipmap/ic_mine_dengji" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/px20"
+                    android:layout_marginBottom="@dimen/px20"
+                    android:text="等级"
+                    android:textColor="@color/c_000000" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ima_sttings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="@dimen/px60"
+            android:layout_marginRight="@dimen/px34"
+            android:src="@mipmap/ic_mine_sttings" />
+    </RelativeLayout>
+
+
+</LinearLayout>

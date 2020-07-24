@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_bg_bai">
+
+        <com.qingpeng.mz.views.XCRoundImageView
+            android:id="@+id/ima_touxiang"
+            android:layout_width="@dimen/px100"
+            android:layout_height="@dimen/px100"
+            android:layout_margin="@dimen/px34"
+            />
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/px16"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px30"
+                android:text="昵称某某某"
+                android:textColor="@color/c_000000"
+                android:textSize="@dimen/px30" />
+
+            <TextView
+                android:id="@+id/text_fensi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px10"
+                android:text="昵称某某某"
+                android:textColor="@color/c_A8A8A8"
+                android:textSize="@dimen/px25" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/px42"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px10"
+                android:gravity="center"
+                android:text="直播中"
+                android:textColor="@color/c_29E5E0"
+                android:textSize="@dimen/px22" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px10"
+                android:gravity="center"
+                android:text="直播中"
+                android:textColor="@color/c_29E5E0"
+                android:textSize="@dimen/px22" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/transparent" />
+
+            <com.chaychan.library.BottomBarLayout
+                android:id="@+id/bbl"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/c_ffffff"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.chaychan.library.BottomBarItem
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:iconHeight="@dimen/px45"
+                    app:iconNormal="@mipmap/ic_main_n"
+                    app:iconSelected="@mipmap/ic_mian_s"
+                    app:iconWidth="@dimen/px45"
+                    app:itemText="首页"
+                    app:itemTextSize="@dimen/px25"
+                    app:textColorNormal="@color/c_999999"
+                    app:textColorSelected="@color/c_00BFCB" />
+
+                <com.chaychan.library.BottomBarItem
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/px66"
+                    android:layout_weight="1"
+                    app:iconHeight="@dimen/px45"
+                    app:iconNormal="@mipmap/ic_nearby_s"
+                    app:iconSelected="@mipmap/ic_nearby_n"
+                    app:iconWidth="@dimen/px45"
+                    app:itemText="关注"
+                    app:itemTextSize="@dimen/px25"
+                    app:textColorNormal="@color/c_999999"
+                    app:textColorSelected="@color/c_00BFCB" />
+
+
+                <com.chaychan.library.BottomBarItem
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/px66"
+                    android:layout_weight="1"
+                    app:iconHeight="@dimen/px45"
+                    app:iconNormal="@mipmap/ic_trends_s"
+                    app:iconSelected="@mipmap/ic_trends_n"
+                    app:iconWidth="@dimen/px45"
+                    app:itemText="消息"
+                    app:itemTextSize="@dimen/px25"
+                    app:textColorNormal="@color/c_999999"
+                    app:textColorSelected="@color/c_00BFCB" />
+
+                <com.chaychan.library.BottomBarItem
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:iconHeight="@dimen/px45"
+                    app:iconNormal="@mipmap/ic_mine_s"
+                    app:iconSelected="@mipmap/ic_mine_n"
+                    app:iconWidth="@dimen/px45"
+                    app:itemText="我的"
+                    app:itemTextSize="@dimen/px25"
+                    app:textColorNormal="@color/c_999999"
+                    app:textColorSelected="@color/c_00BFCB" />
+            </com.chaychan.library.BottomBarLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/tab_main_center"
+            android:layout_width="@dimen/px150"
+            android:layout_height="@dimen/px116"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/px50"
+            android:background="@mipmap/ic_main_quan" />
+    </RelativeLayout>
+</LinearLayout>

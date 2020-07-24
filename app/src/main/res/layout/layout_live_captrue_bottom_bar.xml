@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <com.qingpeng.mz.views.PeriscopeLayout
+            android:id="@+id/periscope"
+            android:layout_width="70dp"
+            android:layout_height="350dp"
+            android:layout_gravity="end" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@color/c_1B3F41" />
+
+        <LinearLayout
+            android:background="@color/c_1B3F41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <ImageView
+                android:id="@+id/live_message"
+                style="@style/control_button"
+                android:layout_marginLeft="6dp"
+                android:src="@mipmap/btn_message_n" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3" />
+
+            <ImageView
+                android:id="@+id/live_gift"
+                style="@style/control_button"
+                android:src="@mipmap/btn_gift_n" />
+
+            <ImageView
+                android:padding="@dimen/px25"
+                android:id="@+id/live_dian"
+                style="@style/control_button"
+                android:layout_gravity="center"
+                android:src="@mipmap/ic_zhibo_dian" />
+
+            <ImageView
+                android:id="@+id/live_x"
+                style="@style/control_button"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/px40"
+                android:src="@mipmap/ic_zhibo_x" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <FrameLayout
+        android:id="@+id/ll_gift_group"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="200dp"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical" />
+
+    <include layout="@layout/receive_gift_layout" />
+
+
+    <LinearLayout
+        android:id="@+id/layout_send_message"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="#f5f5f5"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/send_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_vertical|left"
+            android:hint="和大家说点什么"
+            android:maxLines="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="#333333"
+            android:textColorHint="#cccccc"
+            android:textSize="12sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#e1e1e1" />
+
+        <TextView
+            android:id="@+id/text_send_message"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="发送"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+
+</RelativeLayout>

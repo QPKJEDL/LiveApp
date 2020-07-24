@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- rectangle表示为矩形 -->
+
+    <!--&lt;!&ndash; 填充的颜色 &ndash;&gt;-->
+    <solid android:color="@color/c_ff2498" />
+
+    <!--&lt;!&ndash; 边框的颜色和粗细 &ndash;&gt;-->
+    <!--<stroke-->
+    <!--android:width="0.5dp"-->
+    <!--android:color="@color/c_ffffff"-->
+    <!--/>-->
+
+    <!--android:radius 圆角的半径-->
+    <corners android:radius="@dimen/px10" />
+
+    <!--<gradient-->
+    <!--android:angle="180"-->
+    <!--android:endColor="@color/c_ff5953"-->
+    <!--android:startColor="@color/c_ff455e" />-->
+    <!--<gradient-->
+        <!--android:angle="180"-->
+        <!--android:endColor="@color/c_141319"-->
+        <!--android:startColor="@color/c_141319" />-->
+</shape>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.netflix.rxjava:rxjava-android:0.17.6@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.rxjava/rxjava-android/0.17.6/5ee05a22c96810eb453bb21e63f0c6ea83d9335e/rxjava-android-0.17.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.netflix.rxjava/rxjava-android/0.17.6/e6b2bbf0f9276dd42df9a6d52995873c9fc659d3/rxjava-android-0.17.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

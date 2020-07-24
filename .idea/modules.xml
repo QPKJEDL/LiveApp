@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AlivcCore/AlivcCore.iml" filepath="$PROJECT_DIR$/AlivcCore/AlivcCore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aliyunplayer/AlivcPlayer/AlivcPlayer.iml" filepath="$PROJECT_DIR$/Aliyunplayer/AlivcPlayer/AlivcPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aliyunplayer/AlivcReporter/AlivcReporter.iml" filepath="$PROJECT_DIR$/Aliyunplayer/AlivcReporter/AlivcReporter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Alivclive/Alivclive.iml" filepath="$PROJECT_DIR$/Alivclive/Alivclive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AliyunPusher/AliyunPusher.iml" filepath="$PROJECT_DIR$/AliyunPusher/AliyunPusher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aliyunplayer/Aliyunplayer.iml" filepath="$PROJECT_DIR$/Aliyunplayer/Aliyunplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidtranscoder/androidtranscoder.iml" filepath="$PROJECT_DIR$/androidtranscoder/androidtranscoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/asynctcp/asynctcp.iml" filepath="$PROJECT_DIR$/asynctcp/asynctcp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/giftlibrary/giftlibrary.iml" filepath="$PROJECT_DIR$/giftlibrary/giftlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imkit/imkit.iml" filepath="$PROJECT_DIR$/imkit/imkit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imsdk/imsdk.iml" filepath="$PROJECT_DIR$/imsdk/imsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mz.iml" filepath="$PROJECT_DIR$/mz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AliyunPusher/pusher_core/pusher_core.iml" filepath="$PROJECT_DIR$/AliyunPusher/pusher_core/pusher_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uikit/uikit.iml" filepath="$PROJECT_DIR$/uikit/uikit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxing/zxing.iml" filepath="$PROJECT_DIR$/zxing/zxing.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <include
+        android:id="@+id/action_bar"
+        layout="@layout/alivc_action_bar" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:layout_marginTop="142dp"
+        android:background="@drawable/user_setting_bg_lines" />
+
+
+    <ImageView
+        android:id="@+id/iv_user_avatar_bg"
+        android:layout_width="339dp"
+        android:layout_height="339dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/user_avatar_bg_02" />
+
+
+    <ImageView
+        android:id="@+id/iv_user_avatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="174.5dp"
+        android:src="@mipmap/face" />
+
+    <ImageView
+        android:id="@+id/iv_change_avatar"
+        android:layout_width="28.5dp"
+        android:layout_height="28.5dp"
+        android:layout_alignBottom="@id/iv_user_avatar"
+        android:layout_alignRight="@id/iv_user_avatar"
+        android:scaleType="fitXY"
+        android:src="@drawable/icon_change_avatar" />
+
+    <TextView
+        android:id="@+id/tv_user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="19.5dp"
+        android:layout_below="@id/iv_change_avatar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="ID:26383910"
+        android:textColor="#c3c5c6"
+        android:textSize="12dp" />
+
+    <RelativeLayout
+        android:id="@+id/modify_userinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_user_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Virgie Hines"
+            android:textColor="#ffffff"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="9dp"
+            android:layout_toRightOf="@id/tv_username"
+            android:scaleType="centerCrop"
+            android:src="@drawable/right_arrow" />
+
+    </RelativeLayout>
+
+    <!--<com.aliyun.alivclive.view.AlivcBeautySettingView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+
+    <TextView
+        android:id="@+id/tv_change_user"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:background="#373d41"
+        android:gravity="center"
+        android:text="@string/alivc_user_change"
+        android:textColor="#ffffff"
+        android:textSize="16dp" />
+
+
+</RelativeLayout>

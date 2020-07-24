@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+    <!--oneshot设置反复执行-->
+    <!--一个item对应一帧：一张图片-->
+    <item android:drawable="@drawable/live_anim_1"
+        android:duration="100"/>
+    <item android:drawable="@drawable/live_anim_2"
+        android:duration="100"/>
+    <item android:drawable="@drawable/live_anim_3"
+        android:duration="100"/>
+    <!--后面图片操作同上，一共17张图片-->
+</animation-list>

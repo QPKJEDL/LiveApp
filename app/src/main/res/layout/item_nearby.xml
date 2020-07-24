@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/c_ffffff"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/px50"
+        android:layout_marginTop="@dimen/px50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.qingpeng.mz.views.XCRoundImageView
+            android:background="@mipmap/ic_launcher"
+            android:layout_width="@dimen/px100"
+            android:layout_height="@dimen/px100" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginLeft="@dimen/px30"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="某某直播"
+                android:textSize="@dimen/px30"
+                android:textColor="@color/c_000000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="@dimen/px10"
+                android:text="某某直播"
+                android:textSize="@dimen/px25"
+                android:textColor="@color/c_A8A8A8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:text="我发起了一条声控，快来接唱吧~~~"
+        android:layout_marginTop="@dimen/px28"
+        android:layout_marginLeft="@dimen/px50"
+        android:textSize="@dimen/px35"
+        android:textColor="@color/c_000000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:visibility="gone"
+        android:layout_marginLeft="@dimen/px50"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginBottom="@dimen/px30"
+        android:layout_marginLeft="@dimen/px50"
+        android:layout_marginTop="@dimen/px36"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="@mipmap/ic_launcher"
+            android:layout_width="@dimen/px50"
+            android:layout_height="@dimen/px40" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/px24"
+            android:text="321"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_marginLeft="@dimen/px50"
+            android:background="@mipmap/ic_launcher"
+            android:layout_width="@dimen/px50"
+            android:layout_height="@dimen/px40" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/px24"
+            android:text="321"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

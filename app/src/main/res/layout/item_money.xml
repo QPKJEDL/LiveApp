@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="@dimen/px10"
+    android:gravity="center"
+    android:id="@+id/ll_money"
+    android:layout_width="47dp"
+    android:layout_height="47dp">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:background="@mipmap/money1"
+        android:id="@+id/money"
+        android:layout_width="@dimen/px88"
+        android:layout_height="@dimen/px88" />
+</LinearLayout>

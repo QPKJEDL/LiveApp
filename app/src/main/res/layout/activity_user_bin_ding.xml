@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_root"
+    android:background="@color/c_ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@color/c_f7f7ff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px44" />
+
+        <com.qingpeng.mz.views.TitleBar
+            android:id="@+id/title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px80"
+            app:showToastLeftSrc="true"
+            app:textLeftSrc="@mipmap/ic_back"
+            app:textTitle="绑定账户"
+            app:textTitleColor="@color/c_000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="@dimen/px40"
+        android:layout_marginRight="@dimen/px40"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.qingpeng.mz.views.MineItemView
+            android:id="@+id/mine_bank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:itemText="银行卡绑定"
+            app:itemRightText="　"
+            app:rightIcon="@mipmap/ic_right_back"
+            app:showToastLeftIcon="true"
+            app:showToastRightIcon="true" />
+
+        <com.qingpeng.mz.views.MineItemView
+            android:id="@+id/mine_alipay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:itemText="支付宝绑定"
+            app:itemRightText="　"
+            app:rightIcon="@mipmap/ic_right_back"
+            app:showToastLeftIcon="true"
+            app:showToastRightIcon="true" />
+
+        <com.qingpeng.mz.views.MineItemView
+            android:id="@+id/mine_wechat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:itemText="微信绑定"
+            app:itemRightText="　"
+            app:rightIcon="@mipmap/ic_right_back"
+            app:showToastLeftIcon="true"
+            app:showToastRightIcon="true" />
+    </LinearLayout>
+
+</LinearLayout>

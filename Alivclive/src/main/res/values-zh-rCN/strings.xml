@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">环球直播</string>
+
+    <string name="alivc_message_type_like">点了个赞</string>
+    <string name="alivc_message_type_kick_out">被踢出房间</string>
+    <string name="alivc_message_type_forbid_user">被主播禁言</string>
+    <string name="alivc_message_type_forbid_user_other"> 已被主播禁言，请注意言行</string>
+    <string name="alivc_message_type_forbid_all_user">全员被禁言</string>
+    <string name="alivc_message_type_allow_all_user">允许所有用户发言</string>
+    <string name="alivc_message_type_allow_user">允许发言</string>
+    <string name="alivc_message_type_join_room">加入房间</string>
+    <string name="alivc_message_type_leave_room">离开房间</string>
+    <string name="alivc_message_type_up_mic">主播上麦</string>
+
+    <string name="alivc_dialog_tips">提示</string>
+    <string name="alivc_operate_allow_user">解除禁言</string>
+    <string name="alivc_operate_forbid_user">禁言</string>
+    <string name="alivc_operate_user_name">昵称</string>
+    <string name="alivc_operate_kickout_user">踢人</string>
+
+    <string name="product_interactive_live">互动直播推流间</string>
+    <string name="product_interactive_live_play">互动直播观看间</string>
+    <string name="alivc_message_type_kick_out_by_audience">您已经被踢出房间</string>
+    <string name="alivc_enter_room_tips">请输入要加入的房间ID</string>
+    <string name="alivc_enter_room_check_null_tips">房间ID内容不能为空</string>
+    <string name="alivc_enter_room_confirm">确定</string>
+    <string name="alivc_enter_room_cancel">取消</string>
+
+    <string name="alivc_user_setting">用户设置</string>
+    <string name="alivc_user_change">更换用户</string>
+    <string name="alivc_avatar_change_tips">点击可换头像</string>
+    <string name="alivc_done">完成</string>
+    <string name="alivc_nickname">昵称</string>
+    <string name="alivc_live">直播</string>
+    <string name="alivc_replay">回放</string>
+    <string name="alivc_interactive_live">互动直播</string>
+
+
+    <string name="alivc_ban_chat">禁言</string>
+    <string name="alivc_on_chat">解除禁言</string>
+    <string name="alivc_kickout">踢人</string>
+    <string name="alivc_black_list">黑名单</string>
+
+    <string name="alivc_beauty">美颜</string>
+    <string name="alivc_fine_tune">微调</string>
+
+
+    <string name="beauty_whitening">美白</string>
+    <string name="beauty_buffing">磨皮</string>
+    <string name="beauty_blush">红润</string>
+    <string name="beauty_lip_gloss">腮红</string>
+    <string name="beauty_thinface">瘦脸</string>
+    <string name="beauty_short_jaw">缩下巴</string>
+    <string name="beauty_bigeye">大眼</string>
+
+    <string name="chat_hint">一起聊聊吧</string>
+    <string name="startlive">开始直播</string>
+    <string name="preshow">预览</string>
+
+    <string name="stream_smooth">流畅</string>
+    <string name="stream_sd">标清</string>
+    <string name="stream_hd">高清</string>
+    <string name="building">该功能正在开发...</string>
+    <string name="streamoff">直播已结束</string>
+
+    <string name="kickalert">你被主播移出直播间，请注意言行！</string>
+    <string name="kickbt">我知道了</string>
+
+    <!--用户设置          User Setting-->
+    <!--点击可更换头像     Click to Change Display Image-->
+    <!--更换用户          Switch User-->
+    <!--昵称              Nickname-->
+    <!--完成              Done-->
+    <!--互动直播           Interactive Stream-->
+    <!--直播              Live-->
+    <!--回放              Playback-->
+    <!--进入直播间         Enter Stream Room-->
+    <!--发送              Send-->
+    <!--开始直播           Start Stream-->
+    <!--流畅              Smooth-->
+    <!--标清              SD-->
+    <!--高清              HD-->
+    <!--美颜                Face Filter-->
+    <!--微调                Makeup-->
+    <!--磨皮                Skin Polishing-->
+    <!--美白                Skin Whitening-->
+    <!--红润                Skin Shining-->
+    <!--唇彩                Lip Glow-->
+    <!--大眼                Eye Widening-->
+    <!--瘦脸                Face Slimming-->
+    <!--闪光灯已开启        Flash Enabled-->
+    <!--闪光灯已关闭        Flash Disabled-->
+    <!--禁言               Mute-->
+    <!--踢人               Remove User-->
+    <!--黑名单             Blacklist-->
+    <!--你被主播移出直播间，请注意言行   You have been removed from the room by the caster.-->
+    <!--我知道了            OK-->
+    <!--麦克风已关闭        Microphone Off-->
+    <!--麦克风已开启        Microphone On-->
+    <!--点击可微调           Click to Apply Makeup-->
+    <!--一起聊聊吧           Let's Chat-->
+
+</resources>

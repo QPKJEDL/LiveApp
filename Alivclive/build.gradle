@@ -1,0 +1,67 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion externalCompileSdkVersion
+
+    defaultConfig {
+        minSdkVersion externalMinSdkVersion
+        targetSdkVersion externalTargetSdkVersion
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    repositories {
+        maven {
+            url 'http://mvnrepo.alibaba-inc.com/mvn/repository'
+        }
+        flatDir { dirs 'libs' }
+    }
+}
+
+dependencies {
+    api fileTree(include: ['*.aar'], dir: 'libs')
+    implementation externalMqtt
+    implementation externalAndroidAppCompatV7
+    implementation externalAndroidSupportV13
+    implementation externalAndroidSupportV4
+    implementation externalAndroidRecyclerView
+    implementation externalHttpCore
+    implementation externalGSON
+    implementation externalGlide
+    implementation externalOKHTTP
+    api project(':AliyunPusher:pusher_core')
+    api project(':AlivcCore')
+//    api project(':AliyunPusher:pusher_core')
+    api project(':Aliyunplayer:AlivcPlayer')
+    api project(':Aliyunplayer:AlivcReporter')
+//    api project(':Aliyunplayer:player_demo')
+
+    /*debugCompile 'com.alivc:AlivcNet:1.0.0.6-SNAPSHOT'
+    debugCompile 'com.alivc:AlivcAuth:1.0.0.5-SNAPSHOT'
+    debugCompile 'com.alivc:AlivcLog:1.0.0.4-SNAPSHOT'
+    debugCompile 'com.alivc:AlivcIM:1.0.0.3-SNAPSHOT'
+    debugCompile 'com.alivc:AlivcEventReport:1.0.0.10-SNAPSHOT'
+    debugCompile 'com.alivc.live:AlivcInteractiveRoom:1.0.0.30-SNAPSHOT'
+    debugCompile 'com.alivc.live:AlivcInteractiveWidget:1.0.0.21-SNAPSHOT'
+    debugCompile 'com.alivc.live:AlivcLiveRoom:1.0.0.30-SNAPSHOT'
+    debugCompile 'com.alivc-base:AlivcBase:1.0.1.8-SNAPSHOT'
+    debugCompile 'com.alivc.live:AlivcMessageCenter:1.0.0.6-SNAPSHOT'*/
+
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.json:json:20180130'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test:rules:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-intents:3.0.1'
+}

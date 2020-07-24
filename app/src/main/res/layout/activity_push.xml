@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_live_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
+
+    <SurfaceView
+        android:id="@+id/preview_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/layout_main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+    <!--Fragment容器 用于展示顶部房间信息,与控制按钮-->
+    <FrameLayout
+        android:id="@+id/layout_room_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></FrameLayout>
+
+    <!--Fragment容器 用于展示聊天列表与聊天输入框-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/px110"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/layout_chat_room"
+            layout="@layout/chat" />
+
+        <FrameLayout
+            android:id="@+id/layout_game_room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/c_1B3F41"
+            android:visibility="gone"></FrameLayout>
+    </LinearLayout>
+
+    <!--底部人员操作布局 用于展示当前选中的人员信息与操作按钮-->
+    <include
+        android:id="@+id/rl_member_operate"
+        layout="@layout/layout_member_operate"
+        android:visibility="gone" />
+
+    <!--直播结束展示布局-->
+    <include
+        android:id="@+id/ll_live_finish"
+        layout="@layout/layout_live_finished"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/ll_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <com.android.mx.library.MxVideoView
+            android:id="@+id/mx_video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/text_likai"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="主播暂时离开,马上回来!"
+        android:textColor="@color/c_ffffff"
+        android:textSize="@dimen/px35" />
+
+</RelativeLayout>

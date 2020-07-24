@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AlivcCore.AlivcCore">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AlivcCore/AlivcCore.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

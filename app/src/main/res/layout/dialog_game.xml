@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/login_bg_bai"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/px40"
+    android:paddingBottom="@dimen/px20">
+
+    <TextView
+        android:id="@+id/tv_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/px10"
+        android:text="选择游戏房间"
+        android:textColor="@color/c_000000"
+        android:textSize="@dimen/px30" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/px20"
+        android:layout_marginTop="@dimen/px20"
+        android:layout_marginRight="@dimen/px20" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/px40"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_cansle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/px40"
+            android:background="@drawable/bg_btn_small_cansle_radius"
+            android:paddingLeft="@dimen/px40"
+            android:paddingTop="@dimen/px10"
+            android:paddingRight="@dimen/px40"
+            android:paddingBottom="@dimen/px10"
+            android:text="取消"
+            android:textColor="@color/c_000000" />
+
+        <TextView
+            android:id="@+id/tv_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_btn_small_radius"
+            android:paddingLeft="@dimen/px40"
+            android:paddingTop="@dimen/px10"
+            android:paddingRight="@dimen/px40"
+            android:paddingBottom="@dimen/px10"
+            android:text="确认"
+            android:textColor="@color/c_ffffff" />
+    </LinearLayout>
+</LinearLayout>

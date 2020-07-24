@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/px550"
+    android:background="@color/c_1B3F41"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/px40"
+    android:paddingBottom="@dimen/px20">
+
+    <TextView
+        android:id="@+id/tv_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/px10"
+        android:text="本局游戏结果"
+        android:textColor="@color/c_29E5E0"
+        android:textSize="@dimen/px50" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="本局游戏作废!"
+        android:textColor="@color/c_ffffff"
+        android:textSize="@dimen/px40" />
+</LinearLayout>

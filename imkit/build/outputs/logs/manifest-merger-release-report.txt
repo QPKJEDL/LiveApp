@@ -1,0 +1,41 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml:2:1-18:12
+INJECTED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml:2:1-18:12
+	package
+		ADDED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml:3:11-37
+		INJECTED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml:5:5-6:50
+	android:maxSdkVersion
+		ADDED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml:6:22-48
+	android:name
+		ADDED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml:5:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml:7:5-74
+	android:name
+		ADDED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml:7:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml:8:22-77
+application
+ADDED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml:10:5-14:19
+uses-sdk
+INJECTED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioProjects\mz\imkit\src\main\AndroidManifest.xml

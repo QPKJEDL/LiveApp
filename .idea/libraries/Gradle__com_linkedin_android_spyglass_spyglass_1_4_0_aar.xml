@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.linkedin.android.spyglass:spyglass:1.4.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/12f517ed95ac41a3b99e0f93f49a2fab/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/12f517ed95ac41a3b99e0f93f49a2fab/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.linkedin.android.spyglass/spyglass/1.4.0/36a38a39b26c5c80577c79d1ffdac65b3d073ba9/spyglass-1.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
